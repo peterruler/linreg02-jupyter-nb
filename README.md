@@ -1,8 +1,9 @@
 # ANN Regression with tensorflow on Render.com
 
 # Demo
-- call: https://linreg-3yev.onrender.com
-Enter: 998 for feature1 and 1000 for feature2, check result: 425.12085
+- Note: Please wait for approx. 2 min. -> till the queued webservice (due to long inactivity) is restarted
+- call: https://linreg-3yev.onrender.com and wait about 2 Minutes, it will display the webservice
+- Then Enter: 998 for feature1 and 1000 for feature2, hit predict, then check result: 425.12085, further values to check are in fake_reg.csv!
 
 # Jupyter Notebook is used only with python 3.7.7 intel mac legacy
 
