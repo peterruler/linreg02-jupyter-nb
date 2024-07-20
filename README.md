@@ -6,18 +6,18 @@ Enter: 998 for feature1 and 1000 for feature2, check result: 425.12085
 
 # Jupyter Notebook is used only with python 3.7.7 intel mac legacy
 
-# installation
+# installation (optional use to regenerate model & scaler)
 - `conda create --name tensorflow377 python=3.7.7`
 - `conda info --envs`
 - `conda activate tensorflow377`
 - `conda install ipykernel`
 - `python -m ipykernel install --user --name tensorflow377 --display-name "Python 3.7.7 (tensorflow)"`
 
-# installation local of Jupyter Notebook
+# installation local of Jupyter Notebook (optional)
 - `conda deactivate`
 - `conda uninstall -y jupyter`
 
- # (Use pip if using legacy Python 2.)  locally on intel mac
+ # (Use pip if using legacy Python 2.)  locally on intel mac (optional)
 - `conda activate tensorflow377`
 - `pip3 install --upgrade pip`
 - `pip3 install jupyter`
@@ -36,23 +36,23 @@ Enter: 998 for feature1 and 1000 for feature2, check result: 425.12085
 - `conda install -y tensorflow`
 - run notebook: `jupyter notebook`
 
-# on render.com
+# To install the app use render.com
 - Choose free plan 0$ and type: webservice
 
 # buildsetting on render.com
 - `pip install --upgrade pip && pip install -r requirements.txt`
 
-# start command set
+# start command set on render.com
 - `python app.py`
 
-# under Environment set
+# under environment set on render.com
 - PYTHON_VERSION => 3.7.7
 - PORT => 5000
 
-# save requiremenrts.txt locally on intel mac
+# save requirements.txt locally on intel mac (optional)
 - `pip freeze > requirements.txt`
 
-# scaler
+# scaler (optional)
 ```
 import pickle
 scalerfile = 'scaler.sav'
